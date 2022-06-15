@@ -1,0 +1,29 @@
+.form {
+    display: flex;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding:7px 10px;
+
+    &__input {
+        border: none;
+        width: 300px;
+        font-size: 22px;
+        &:focus-visible{
+            outline: none;
+        }
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 50%;
+        margin-right: 10px;
+        cursor: pointer;
+        background-color: transparent;
+        padding: 0;
+    }
+}
+

@@ -1,0 +1,36 @@
+.item {
+    position: relative;
+    background-color: #fff;
+    padding: 10px 10px 10px 13px;
+    border-radius: 10px;
+    display: flex;
+    
+    align-items: center;
+    cursor: pointer;
+
+    &__done {
+        width: 24px;
+        height: 24px;
+        margin-right: 20px;
+        border: 1px solid black;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+       
+    }
+
+    &__title {
+        margin: 0;
+        font-weight: 400;
+    }
+
+    &__delete {
+        position: absolute;
+        right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;     
+    }
+}
